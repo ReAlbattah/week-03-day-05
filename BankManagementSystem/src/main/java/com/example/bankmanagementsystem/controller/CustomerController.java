@@ -37,4 +37,6 @@ public class CustomerController {
         customerService.addCustomer(customer);
         return ResponseEntity.status(201).body(new API("Customer added",201));
     }
+    
+    
 }
